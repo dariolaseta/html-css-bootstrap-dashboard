@@ -3,14 +3,33 @@ nav{
     height: 50px;
 }
 
+main section.my_side-bar{
+    color: white;
+}
+
+main section.my_side-bar i{
+    font-size: 1rem;
+}
+
 .my_side-bar{
-    width: 100px;
+    width: 60px;
     height: 100vh;
     background-color: black;
 }
 
 .my_content{
-    width: calc(100% - 100px);
+    width: calc(100% - 60px);
     height: 100vh;
     background-color: blue;
+}
+
+.my_upper-section{
+    width: 100%;
+    height: 30%;
+}
+
+.my_table{
+    width: 100%;
+    height: 30%;
+    background-color: green;
 }
