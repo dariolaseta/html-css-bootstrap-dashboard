@@ -1,0 +1,16 @@
+nav{
+    background-color: red;
+    height: 50px;
+}
+
+.my_side-bar{
+    width: 100px;
+    height: 100vh;
+    background-color: black;
+}
+
+.my_content{
+    width: calc(100% - 100px);
+    height: 100vh;
+    background-color: blue;
+}
