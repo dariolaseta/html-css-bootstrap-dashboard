@@ -20,21 +20,21 @@
     
     <body>
         <header>
-            <div>
+            <div class="container-fluid">
                 <div class="row align-items-center">
-                    <div class="col-1 col-sm-1">
+                    <div class="col-1 col-sm-1 col-lg-2">
                         <img class="my_logo-mobile " src="img/mobile-logo.png" alt="logo mobile">
                         <img class="my_logo-desktop" src="img/logo.svg" alt="logo desktop">
                     </div>
 
-                    <div class="col-10 col-sm-10">
+                    <div class="col-10 col-sm-10 col-lg-8">
                         <form class="d-flex" role="search">
                           <i class="fa-solid fa-magnifying-glass"></i>
                           <input class="form-control" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
                         </form>
                     </div>
 
-                    <div class="col-1 col-sm-1">
+                    <div class="col-1 col-sm-1 col-lg-1">
                         <i class="fa-solid fa-bell"></i>
                     </div>
                 </div>
@@ -63,7 +63,29 @@
             </section>
 
             <section class="my_content">
-                <div class="my_upper-section bg-warning"></div>
+                <div class="my_upper-section container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-md-4 mt-3 d-flex">
+                            <p>Nuovo Studente</p>
+                            <i class="fa-regular fa-square-plus ms-3"></i>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <div>
+                                <span class="boolean">Boolean</span>
+                                <button class="my_button mt-3 ms-2">Piano blaze</button>
+                            </div>
+                            <button class="my_button">3 app</button>
+                            <span>>></span>
+                            <button class="my_button">+</button>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <p class="mt-4">Studenti online gli ultimi 30 minuti</p>
+                            <p class="boolean">125</p>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="my_table container-fluid mt-4 table-responsive">
                 </div>

@@ -15,6 +15,10 @@ header div.col-10 input.form-control{
     padding-left: 1.7rem;
 }
 
+.boolean{
+    font-size: 2rem;
+}
+
 .my_side-bar{
     width: 60px;
     height: 100vh;
@@ -29,7 +33,8 @@ header div.col-10 input.form-control{
 
 .my_upper-section{
     width: 100%;
-    height: 30%;
+    color: white;
+    background-color: #1b72e8;
 }
 
 .my_table{
@@ -49,4 +54,18 @@ header div.col-10 input.form-control{
     position: relative;
     top: 10px;
     left: 20px;
+}
+
+.fa-square-plus{
+    font-size: 2rem;
+}
+
+.my_button{
+    background-color: #165bba;
+    border: none;
+    color: white;
+    padding: .01rem .5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 2rem;
 }
