@@ -74,7 +74,121 @@
                     <div class="row justify-content-between">
                         <div class="col-12 col-md-4 mt-3 d-flex order-lg-3">
                             <p>Nuovo Studente</p>
-                            <i class="fa-regular fa-square-plus ms-3"></i>
+                            <i class="fa-regular fa-square-plus ms-3" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"></i>
+
+                            <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                <div class="offcanvas-header">
+                                  <h5 class="offcanvas-title text-dark" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+                                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                  <div class="text-dark">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="name" class="form-label">Nome</label>
+                                                    <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="surname" class="form-label">Cognome</label>
+                                                    <input type="text" class="form-control" id="surname">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="email2" class="form-label">Email</label>
+                                                    <input type="email" class="form-control" id="email1">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="password1" class="form-label">Password
+                                                    </label>
+                                                    <input type="password" class="form-control" id="passord1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="email2" class="form-label">Indirizzo Email</label>
+                                                    <input type="email" class="form-control" id="email2">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="password2" class="form-label">Password
+                                                    </label>
+                                                    <input type="password" class="form-control" id="passord1">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="mb-3">
+                                                    <label for="address" class="form-label">Indirizzo</label>
+                                                    <input type="text" class="form-control" id="address">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-6">
+                                                <div class="mb-3">
+                                                    <label for="city" class="form-label">Città</label>
+                                                    <input type="text" class="form-control" id="city">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-3">
+                                                <div class="form-group mt-2">
+                                                    <label for="state">Stato</label>
+                                                    <select id="state" class="form-control">
+                                                      <option selected>Scegli...</option>
+                                                      <option>...</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-2">
+                                                <div class="mb-3">
+                                                    <label for="cap" class="form-label">CAP</label>
+                                                    <input type="text" class="form-control" id="cap">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="mb-3">
+                                                    <label for="picture" class="form-label">Foto</label>
+                                                    <input type="file" class="form-control" id="picture">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="mb-3 form-check">
+                                                    <input type="checkbox" class="form-check-input" id="check">
+                                                    <label class="form-check-label" for="check">Seleziona per proseguire</label>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Salva</button>
+                                                <button type="submit" class="btn btn-warning">Svuota</button>
+                                            </div>
+                                        </div>
+                                      </form>
+                                  </div>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="col-12 col-md-4">
@@ -98,6 +212,7 @@
                     </div>
                 </div>
 
+                <!-- TODO: Fix stats section position -->
                 <div class="my_table container-fluid mt-4 table-responsive">
                     <div class="row">
                         <div class="col-sm-12 col-lg-8">
