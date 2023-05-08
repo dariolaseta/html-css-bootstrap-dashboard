@@ -24,14 +24,12 @@ table button i{
 
 .my_side-bar{
     width: 60px;
-    height: 100vh;
     background-image: url(../img/sidebar-bg.png);
     background-color: #051e34;
 }
 
 .my_content{
     width: calc(100% - 60px);
-    height: 100vh;
 }
 
 .my_upper-section{
@@ -95,4 +93,17 @@ table button i{
 .my_border-bottom p{
     padding-bottom: 1rem;
     border-bottom: 1px solid #dee2e6;
+}
+
+@media screen and (min-width: 992px) {
+
+    .my_side-bar{
+        width: 150px;
+        background-image: url(../img/sidebar-bg.png);
+        background-color: #051e34;
+    }
+
+    .my_content{
+        width: calc(100% - 150px);
+    }
 }
