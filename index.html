@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Css Bootstrap Dasdhboard</title>
+        <title>Css Bootstrap Dashboard</title>
 
         <link rel="stylesheet" href="css/style.css">
 
@@ -23,8 +23,8 @@
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-1 col-sm-1 col-lg-2">
-                        <img class="my_logo-mobile " src="img/mobile-logo.png" alt="logo mobile">
-                        <img class="my_logo-desktop" src="img/logo.svg" alt="logo desktop">
+                        <img class="my_logo-mobile d-lg-none" src="img/mobile-logo.png" alt="logo mobile">
+                        <img class="my_logo-desktop d-none d-lg-inline-block mt-3 mb-3" src="img/logo.svg" alt="logo desktop">
                     </div>
 
                     <div class="col-10 col-sm-10 col-lg-9">
@@ -34,7 +34,10 @@
                         </form>
                     </div>
 
-                    <div class="col-1 col-sm-1 col-lg-1">
+                    <div class="col-1 col-sm-1 col-lg-1 d-flex justify-content-between">
+                        <i class="fa-solid fa-list-ul d-none d-xl-flex"></i>
+                        <i class="fa-solid fa-circle-question d-none d-xl-flex"></i>
+                        <i class="fa-solid fa-ellipsis-vertical d-none d-xl-flex"></i>
                         <i class="fa-solid fa-bell"></i>
                     </div>
                 </div>
