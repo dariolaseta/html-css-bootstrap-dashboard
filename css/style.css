@@ -92,7 +92,7 @@ table button i{
     width: 30px;
 }
 
-.my_faq p{
+.my_border-bottom p{
     padding-bottom: 1rem;
     border-bottom: 1px solid #dee2e6;
 }
